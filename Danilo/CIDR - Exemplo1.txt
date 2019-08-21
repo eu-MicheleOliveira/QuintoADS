@@ -1,0 +1,28 @@
+Exemplo 1
+IP 200.152.64.0/27
+-Mascará em notação normal:
+255.255.255.224
+
+
+IPs livres = 32
+IPs para hosts = 30
+
+
+a) IP da Rede: 200.152.64.0
+b) Broadcast: 200.152.64.31
+C) IP do server: 200.152.64.1
+d) IPs disponíveis para Hosts: 200.152.64.2 ao 200.152.64.30
+
+-----------------------
+Exemplo 2. Próxima rede
+IP 200.152.64.43/28
+-Mascará em notação normal: 
+255.255.255.240
+
+IPs livres = 16
+IPs para hosts = 14
+
+a) IP da Rede: 200.152.64.32
+b) Broadcast: 200.152.64.47
+C) IP do server:200.152.64.33
+d) IPs disponíveis para Hosts: 200.152.64.34 AO 200.152.64.46

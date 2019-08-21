@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fatec</string>
+    <string name="boasvindas">Bem- Vindo (a) à Fatec Garça!</string>
+    <string name="escolha">Escolha uma opção:</string>
+    <string name="sobre">Sobre nós</string>
+    <string name="cursos"> Cursos</string>
+    <string name="projetos"> Projetos</string>
+
+    <string name="fatec">
+       Fatec é uma instituição do governo.
+    </string>
+</resources>

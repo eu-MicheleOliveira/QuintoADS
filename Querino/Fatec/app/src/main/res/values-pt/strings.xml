@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fatec</string>
+    <string name="boasvindas">Bem Vindo a Fatec Garça</string>
+    <string name="escolha">"Escolha uma opção: "</string>
+    <string name="sobre">Sobre Nós</string>
+    <string name="cursos">Cursos</string>
+    <string name="projeto">Projetos</string>
+    <string name="fatec">A Fatec Garça é uma instituição educacional do governo que oferece cursos superiores gratuitos ao público </string>
+</resources>

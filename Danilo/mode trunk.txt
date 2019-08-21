@@ -1,0 +1,16 @@
+switch 1
+conf t
+
+int f/0x
+
+switchport mode ?
+switchport mode trunk
+
+brief
+
+show run
+
+switch 2
+brief
+
+testes

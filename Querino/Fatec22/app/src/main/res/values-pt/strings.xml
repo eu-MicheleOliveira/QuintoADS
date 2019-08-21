@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fatec</string>
+    <string name="boasvindas">Bem Vindo a Fatec Garça</string>
+    <string name="escolha">"Escolha uma opção: "</string>
+</resources>

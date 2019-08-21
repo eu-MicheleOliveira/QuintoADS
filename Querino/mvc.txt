@@ -1,0 +1,9 @@
+MVC
+Model
+View
+Controller
+
+"receitinha de bolo" para seguir ao desenvolver software.
+
+Modelo --> lógica do app
+View ----> interface

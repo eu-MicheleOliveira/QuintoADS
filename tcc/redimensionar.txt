@@ -1,0 +1,21 @@
+private void ConfiguarItensMenu()
+        {
+            foreach (var item in menuStrip1.Items)
+            {
+                ((ToolStripItem)item).AutoSize = false;
+                ItensMenu.Add(((ToolStripItem)item).Name, (((ToolStripItem)item).Width * 100) / this.Width);
+            }
+        }
+
+        private void Redimensionar() {
+            if (ItensMenu.Count() == 0) { ConfiguarItensMenu(); };
+            foreach (var item in menuStrip1.Items)
+            {
+                ((ToolStripItem)item).Width = (int)(ItensMenu[((ToolStripItem)item).Name] * this.Width) / 100;
+            }            
+        }
+
+        private void Form2_Resize(object sender, EventArgs e)
+        {
+            Redimensionar();
+        }

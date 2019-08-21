@@ -1,0 +1,45 @@
+CLI
+Switch>
+ENA Saír do modo usuario e entrar no modo administrador
+
+Configure Terminal - Configuração Global - especie de painel de controle
+
+VLAN 2
+NAME EDU
+END
+show VLAN brief
+Como está configurado o switch
+
+Conf T
+VLAN 3
+NAME BIB
+end
+
+show VLAN brief
+
+
+Conf T
+
+int f0/9
+switchport access VLAN 2
+int f0/10
+switchport access VLAN 2
+.
+.
+.
+.
+ctrl Z
+show VLAN brief
+
+Conf T
+int f0/17
+switchport access VLAN 3
+.
+.
+.
+.
+show run
+
+wr - grava as informações
+testes de rede
+

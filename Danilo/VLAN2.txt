@@ -1,0 +1,27 @@
+enable - entrar no modo administrador
+configure terminal - configuração global
+-------------
+Adicionando VLANs
+configure terminal
+vlan x
+x = número da VLAN
+name y
+y = nome da VLAN
+
+end
+-------------
+visualizar a estrutura das portas FastEthernet
+show Vlan brief
+-------------
+Alterando a estrutura da portas para VLANs
+configure terminal
+interface f0/x
+x = número da porta Fast Ethernet
+switchport access VLAN y
+y = número da VLAN
+crtl + Z
+-----------
+show run
+--visualizar a estrutura das VLANs
+wr 
+-- salvar configuração

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Fatec</string>
+    <string name="boasvindas">Welcome to Fatec Garça!</string>
+    <string name="escolha">Choose an option:</string>
+    <string name="sobre"> About Us</string>
+    <string name="cursos"> Courses</string>
+    <string name="projetos"> Projects</string>
+
+    <string name="fatec">
+        Fatec Garca is a government educational .
+    </string>
+
+
+</resources>

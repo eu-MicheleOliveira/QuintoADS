@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fatec</string>
+    <string name="boasvindas">Welcome to Fatec Garça !</string>
+    <string name="escolha">Choose an option:</string>
+    <string name="sobre">About Us</string>
+    <string name="cursos">Courses</string>
+    <string name="projeto">Projects</string>
+    <string name="fatec">Fatec Garça is a goverment educational instituicion that provides free superior degree courses to the public</string>
+
+</resources>
